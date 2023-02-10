@@ -1,0 +1,47 @@
+/* Barra de navegacion */
+
+.navbar {
+    padding: 0,5rem;
+    background-color: rgb(92, 94, 95);
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Iconos */
+
+.bi {
+    font-size: xx-large;
+}
+
+/* Adaptable (Resposivo) */
+@media screen and (max-width: 575px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+/* Imagen de perfil */
+
+.foto-perfil {
+    width: 200px;
+    height: 250px;
+    border-radius: 25%;
+    margin-top: -17%;
+    z-index: 1;
+}
+
+/* Informacion de Perfil */
+
+.mat-card {
+    border-radius: 32px;
+    margin: 5px 5px;
+    padding: 20px;
+    border-color: black;
+}
+
+.mat-card#first-card {
+    padding: 0;
+}
